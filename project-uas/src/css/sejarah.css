@@ -1,0 +1,88 @@
+/* sejarah.css */
+
+.sejarah {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+    font-family: 'Georgia', serif;
+    background-color: #FBF3D5;
+    border: 2px solid #ccc;
+    width: 90%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.sejarah h1 {
+    margin-bottom: 50px;
+}
+
+.card {
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; /* Add background-color to transition */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.card-body {
+    padding: 0 20px;
+}
+
+.modal-content {
+    border-radius: 15px;
+}
+
+.modal-header {
+    border-bottom: 1px solid #dee2e6;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-title {
+    color: #0056b3;
+    text-align: center;
+    flex: 1;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.close-button {
+    border: none;
+    background: none;
+    color: #aaa;
+    font-size: 1.5rem;
+}
+
+.close-button:hover {
+    color: #f00;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .card-img-top {
+        height: 150px;
+    }
+}
+
+@media (max-width: 576px) {
+    .modal-dialog {
+        margin: 10px;
+    }
+}

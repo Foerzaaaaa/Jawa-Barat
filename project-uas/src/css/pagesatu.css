@@ -1,0 +1,25 @@
+.pagesatu-container-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  font-family: 'Georgia', serif;
+  margin-top: 20px; 
+  margin-left: 20px; 
+  margin-right: 20px;
+}
+
+.gambar-besar {
+  width: 100%;
+  height: 100%; 
+  object-fit: cover; 
+  border-radius: 10px;
+}
+
+.tulisan-jawa-barat {
+  position: absolute;
+  font-size: 56px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}

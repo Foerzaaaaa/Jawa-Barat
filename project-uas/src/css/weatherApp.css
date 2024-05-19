@@ -1,0 +1,93 @@
+/* General styles for the Weather App container */
+.weatherApp-container {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  padding: 20px;
+  background-color: #e6f7ff; /* Light blue background */
+  min-height: 100vh;
+}
+
+.weatherApp-header {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.weatherApp-search {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.weatherApp-input {
+  padding: 10px;
+  width: 300px;
+  border: 2px solid #4a90e2; /* Blue border */
+  border-radius: 4px;
+}
+
+.weatherApp-searchButton {
+  padding: 10px 20px;
+  background-color: #5cb85c; /* Green button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.weatherApp-searchButton:hover {
+  background-color: #449d44; /* Darker green on hover */
+}
+
+.weatherApp-errorMessage {
+  color: #d9534f; /* Bootstrap's btn-danger color */
+  margin-top: 10px;
+}
+
+.weatherApp-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6); /* Slightly darker background for modal */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weatherApp-modalContent {
+  background-color: #f9f9f9; /* Light grey background */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.weatherApp-closeButton {
+  float: right;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.weatherApp-info {
+  margin-top: 20px;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.weatherApp-cityName, .weatherApp-temperature, .weatherApp-weatherMain, .weatherApp-weatherDescription, .weatherApp-humidity, .weatherApp-pressure, .weatherApp-windSpeed, .weatherApp-sunrise, .weatherApp-sunset {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #204d74;
+}
+
+.weatherApp-header h1 {
+  margin: 0;
+  color: #ff7518; 
+}
